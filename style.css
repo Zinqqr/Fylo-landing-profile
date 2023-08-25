@@ -1,0 +1,291 @@
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding-top: 30px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+li{
+    list-style: none;
+    display: flex;
+    
+}
+.underlined{
+    text-decoration: underline;
+    padding-top: 10px;
+    color: hsl(170, 45%, 43%);
+}
+.underlined:hover{
+    color: hsl(169, 38%, 71%);
+}
+.all{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.img1{
+    height: 500px;
+}
+h3.all4{
+    text-transform: capitalize;
+    width: 350px;
+}
+.list-item{
+    display: flex;
+    gap: 30px;
+
+}
+div.text1{
+    width: 450px;
+}
+button.first{
+    padding: 15px 50px 15px 50px;
+    background-color: blue;
+    color: white;
+    border: 0;
+    margin-top: 20px;
+}
+input::placeholder{
+    color: hsl(0, 0%, 75%);
+    text-align: start;
+}
+input.first{
+    padding: 15px 150px 15px 10px;
+    border-radius: 5px; 
+}
+input.second{
+    padding: 15px 200px 15px 10px;
+    border-radius: 5px;
+    border: 0;
+}
+.all2{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    padding-top: 150px;
+    background-image: url(/images/bg-curve-desktop.svg);
+    margin-top: 100px;
+    background-color: hsl(240, 75%, 98%);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.img2{
+    height: 400px;
+}
+div.security{
+    padding-top: 10px;
+}
+.all3{
+    background-color: hsl(238, 22%, 44%);
+    display: flex;
+    color: white;
+    gap: 300px;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    align-items: center;
+}
+.all4{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.av{
+    background-color: white;
+    width: 500px;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 2px  black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.its{
+    display: flex;
+    align-items: center;
+    padding: 5px 5px 20px 20px
+}
+h1.av{
+    margin-top: 50px;
+}
+div.av{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 300px;
+}
+.all3.log{
+    width: 20px;
+    padding-left: 20px;
+}
+div.dim{
+    color: hsl(0, 0%, 75%);
+}
+button.second{
+    padding: 15px 30px 15px 30px;
+    background-color: blue;
+    color: white;
+    border: 0;
+    margin-top: 20px;
+}
+.logo{
+    word-spacing: 10px;
+    color: white;
+}
+div.make1{
+    color: white;
+    word-spacing: 10px;
+}
+button:hover{
+    background-color: hsl(224, 93%, 58%);
+}
+.avater{
+    display: flex;
+    align-items: center;
+}
+.avater-name{
+    align-items: center;
+}
+.avater-img{
+    border-radius: 20px;
+    height: 40px;
+    
+}  
+
+
+
+@media screen and (max-width:768px) {
+    body{   
+        margin: 0 auto;
+    } 
+    .all{
+        display: flex;
+        flex-direction: column-reverse;   
+    }
+    .occ{
+        text-align: center;
+    }
+    .occ h2{
+        text-transform: capitalize;
+        width: 350px;
+        padding-left: 50px;
+    }
+    .occ2 h3{
+        text-align: center;
+    }
+    .occ .text1{
+        width: 350px;
+        padding: 0 50px 0 50px;
+    }
+    button.first{
+    padding: 15px 130px 15px 130px;
+    background-color: blue;
+    color: white;
+    border: 0;
+    margin-top: 20px;
+    }
+    .underlined:hover{
+        color: hsl(174, 51%, 75%);
+    }
+    .list-item{
+        display: flex;
+        gap: 10px;
+}
+    .head{
+        padding: 0 10px;
+
+    }
+    .head img{
+       width: 100px;
+    }
+    .all2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .img2{
+        height: 250px;
+        justify-content: center;
+        width: 300px;
+    }
+    .img1{
+        height: 200px;
+        justify-content: center;
+        width: 300px;
+    }
+    .never{
+        margin: 0 auto;
+    }
+    .underlined{
+        justify-content: center;
+        padding: 50px 80px 50px 80px;
+    }
+    .av{
+        margin: 0 auto 100px;
+    }
+   
+    .all3{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    .mog h3{
+        text-transform: capitalize;
+        text-align: center;
+        
+    }
+    div.dim{
+        padding: 0 10px 0 10px;
+    }
+    button.second{
+        padding: 15px 80px 15px 80px;
+        background-color: blue;
+        color: white;
+        border: 0;
+        margin-top: 20px;
+        }
+        input.second{
+        padding: 15px 100px 15px 10px;
+        border-radius: 5px;
+        border: 0;
+        }
+    .all4{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .make1{
+        padding-right: 100px;
+    }
+    .make2{
+        padding-right: 250px;
+    }
+    .make3{
+        padding-right: 250px;
+    }
+    button:hover{
+        background-color: hsl(224, 93%, 58%);
+    }
+}
